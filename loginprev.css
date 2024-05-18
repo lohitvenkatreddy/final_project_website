@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header img {
+  width: 150px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.recommendations {
+  border: 1px solid #ddd;
+  padding: 15px;
+  background-color: #222;
+}
+
+.recommendations h2 {
+  margin-bottom: 10px;
+}
+
+.recommendations ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recommendations li {
+  margin-bottom: 5px;
+}
+
+.recommendations a {
+  text-decoration: none;
+  color: #fff;
+}

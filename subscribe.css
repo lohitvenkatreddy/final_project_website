@@ -1,0 +1,37 @@
+body{
+ background-color: black;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    color:white;
+    font-size: 20px;
+  }
+  
+  
+  
+  th {
+    color:red; 
+    font-weight: bold;
+  }
+  h2{
+     color:white;
+  }
+  h1{
+    color:red;
+  }
+a{
+  color:whitesmoke;
+  text-decoration:underline;
+
+  
+}
+a:hover{
+  color:red;
+}

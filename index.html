@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Infnite Watch</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="log.png.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar"> 
+    <div class="menu-bar">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+</div>
+         
+<img src="logonew.jpeg" class="brand-logo" alt="" />
+      <ul class="nav-links">
+      <div class="dropdown-container">
+        <li class="nav-items"><a href="#">TV</a></li>
+        <div class="sublink-container slide-up">
+										<a href="#" class="dropdown-link" target="">Live Tv</a>
+										<a href="#" class="dropdown-link" target="">Infinite  Specials</a>
+									</div>
+</div>
+<div class="dropdown-container">
+        <li class="nav-items"><a href="#">movies</a></li>
+        <div class="sublink-container slide-up">
+										
+			
+									  <a href="#" class="dropdown-link" target="">English</a>
+									  <a href="#" class="dropdown-link" target="">Telugu</a>
+
+									</div>
+</div>
+<div class="dropdown-container">
+        <li class="nav-items"><a href="#">sports</a></li>
+        <div class="sublink-container slide-up">
+										<a href="https://crex.live/live-matches" class="dropdown-link" target="">Cricket</a>
+										<a href="https://www.goal.com/en-in/live-scores" class="dropdown-link" target="">Football</a>
+
+									</div>
+								</div>
+ <div class="dropdown-container">
+        <li class="nav-items"><a href="#">Gaming</a></li>
+        <div class="sublink-container slide-up">
+										<a href="#" class="dropdown-link" target="">LIVE Streaming</a>
+                    <a href="#" class="dropdown-link" target="">Recorded Streaming</a>
+                    </div>
+								</div>
+
+      </ul>
+
+      <div class="right-container">
+        <a href="ap.html" style="margin-right: 81px;" ><button class="sub-btn">Search</button></a>
+        <a href="subscribe.html"  onclick="document.getElementById('login-form').style.display='block'"><button class="sub-btn" >subscribe</button></a>
+        <a href="#" class="login-link"  id='demologin' onclick="document.getElementById('login-form').style.display='block'" >login</a>
+      </div>
+     </nav>
+    <div id='login-form' class='login-page'>
+     <div class="form-box">
+       <div class="button-box">
+         <div id='btn'></div> 
+         <button type='button'onclick='login()' class='toggle-btn' style="color:antiquewhite">Log In</button>
+         <button type='button' onclick='register()'class='toggle-btn' style="color:antiquewhite">Register</button>
+</div>
+<form id='login' class='input-group-login' method="get"  action="loginprevi.html" onsubmit="return fun()">
+  <input type='email' name='uname' id='usr' class='input-field' placeholder='Enter Email' required>
+  <input type='password' name='password'class='input-field' id="pass" placeholder='Enter Password' required>
+  <br>
+  <input type='checkbox' class='check-box'>
+  <label for="pass" style="color:antiquewhite">Remember Password</label>
+  <br><br>
+  <button type='submit' class="sub-btn" >
+     Login
+  </button>
+</form>
+<form id='register' class='input-group-register' action="purchase.html" method="post">
+  <input type='text' class='input-field' name="firstname"placeholder='First Name' required>
+  <input type='text' class='input-field' name="lastname"placeholder='Last Name' required>
+  <input type='email' class='input-field' name="email" placeholder='Email Id' required>
+  <input type='password' name='password'class='input-field'name="password" placeholder='Enter password' required>
+  <input type='password' class='input-field' name="confirmpassword"placeholder='Confirm password' required><br> 
+  <input type='checkbox' class='check-box'>
+  <label for="pass" style="color:antiquewhite">I Agree to the T&C</label>
+  <br>
+  <button type='submit' class="sub-btn" style="float:left;">
+  subscribe
+  </button>
+</form>
+</div>
+</div>
+</div>
+
+
+    <div class="carousel-container">
+      <div class="carousel"> </div>
+    </div>
+    <div class="video-card-container">
+      <div class="video-card">
+        <img src="log.png.png" class="video-card-image" alt="" />
+        <a href="https://kio.ibomma.games//" target="" style="text-align: center;">ibomma</a>
+      </div>
+      <div class="video-card">
+        <img src="netflix.logo.jpg" class="video-card-image" alt="" />
+        <a href="#" target="" style="text-align: center;">Netflix</a>
+      </div>
+      <div class="video-card">
+        <img src="hot(1).jpeg" class="video-card-image" alt="" />
+        <a href="https://www.hotstar.com/in/home" target="" style="text-align: center;">Hotstar</a>
+      </div>
+      <div class="video-card">
+        <img src="prime.jpg" class="video-card-image" alt="" />
+        <a href="https://www.primevideo.com/region/eu/offers/nonprimehomepage/ref=atv_live_hom_c_9zZ8D2_hom" target="" style="text-align: center;">Amazon</a>
+      </div>
+      <div class="video-card">
+        
+          <img src="jc.webp" class="video-card-image"  alt="" />
+          <a href="https://www.jiocinema.com/" target="">Jio cinema</a>
+      
+      </div>
+    </div>
+    <h1 class="title">Recommended For You</h1>
+    <div class="movies-list">
+      <button class="pre-btn" title="btn">
+        <img src="images/pre.png" alt="" />
+      </button>
+      <button class="nxt-btn" title="btn">
+        <img src="images/nxt.png" alt="nxt btn" />
+      </button>
+        <div class="card-container">
+          <div class="card">
+            <img src="mb.jpg" class="card-img" alt="" />
+            <div class="card-body">
+              <h2 class="name">Gunturkaram</h2>
+              <h6 class="des">A man seeks explanations years after she deserts him </h6>
+              <button class="watchlist-btn">add to watchlist</button>
+            </div>
+          </div>
+          <div class="card">
+              <img src="op.jpg" class="card-img" alt="" />
+              <div class="card-body">
+                <h2 class="name">Oppenheimer</h2>
+                <h6 class="des">During World War II J.R.Oppenheimer to work on  Manhattan </h6>
+                <button class="watchlist-btn">add to watchlist</button>
+              </div>
+            </div>
+            <div class="card">
+                <img src="an.jpg" class="card-img" alt="" />
+                <div class="card-body">
+                  <h2 class="name">Animal</h2>
+                  <h6 class="des"> A man's transformation for against who threats his father's life. </h6>
+                  <button class="watchlist-btn">add to watchlist</button>
+                </div>
+              </div>
+              <div class="card">
+                  <img src="in.jpg" class="card-img" alt="" />
+                  <div class="card-body">
+                    <h2 class="name">Interstellar</h2>
+                    <h6 class="des">Joseph Cooper,a tasked to pilot a spacecraft,to find a new planet for humans.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                  </div>
+                </div>
+                <div class="card">
+                    <img src="kp.jpg" class="card-img" alt="" />
+                    <div class="card-body">
+                      <h2 class="name">Kung Fu panda-4</h2>
+                      <h6 class="des">Po must train a new warrior,to become the leader of the Valley .</h6>
+                      <button class="watchlist-btn">add to watchlist</button>
+                    </div>
+                  </div>
+                  <div class="card">
+                      <img src="cv.jpg" class="card-img" alt="" />
+                      <div class="card-body">
+                        <h2 class="name">Civil war</h2>
+                        <h6 class="des">journalists races against time to reach Washington,before factions descend the White House</h6>
+                        
+                        <button class="watchlist-btn">add to watchlist</button>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img src="SR.jpg" class="card-img" alt="" />
+                        <div class="card-body">
+                          <h2 class="name">Salar</h2>
+                          <h6 class="des">A gang leader makes a promise to a dying friend by taking on other criminal gangs.</h6>
+                          <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                      </div>
+                      <div class="card">
+                          <img src="IM.jpg" class="card-img" alt="" />
+                          <div class="card-body">
+                            <h2 class="name">IronMan-3</h2>
+                            <h6 class="des">Tony  encounters a foe called the Mandarin.When he watches his world fall apart,</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <a href="#">
+                            <img src="DK.jpg" class="card-img" alt="" />
+                            <div class="card-body">
+                              <h2 class="name">The Dark Knight</h2>
+                              <h6 class="des"> Batman has a new foe, the Joker, who is a criminal hell-bent on decimating Gotham . </h6>
+                              <button class="watchlist-btn">add to watchlist</button>
+                            </a>
+                            </div>
+                          </div>
+                          <div class="card">
+                              <img src="images/poster 10.png" class="card-img" alt="" />
+                              <div class="card-body">
+                                <h2 class="name">Luca</h2>
+                                <h6 class="des">Timid sea monster child Luca.</h6>
+                                <button class="watchlist-btn">add to watchlist</button>
+                              </div>
+                            </div>
+                            <div class="card">
+                                <img src="images/poster 11.png" class="card-img" alt="" />
+                                <div class="card-body">
+                                  <h2 class="name">Ford v Ferrari</h2>
+                                  <h6 class="des">American automotive designer.</h6>
+                                  <button class="watchlist-btn">add to watchlist</button>
+                                </div>
+                              </div>
+                              <div class="card">
+                                  <img src="images/poster 12.png" class="card-img" alt="" />
+                                  <div class="card-body">
+                                    <h2 class="name">Dark Phoenix</h2>
+                                    <h6 class="des">Jean Grey's transformation into the Phoenix.</h6>
+                                    <button class="watchlist-btn">add to watchlist</button>
+                                  </div>
+                                </div>
+        </div>
+      </div>
+      <h1 class="title">Popular Series</h1>
+      <div class="movies-list">
+          <button class="pre-btn" title="btn"><img src="images/pre.png" alt="pre btn"></button>
+          <button class="nxt-btn" title="btn"><img src="images/nxt.png" alt="nxt btn"></button>
+          <div class="card-container">
+              <div class="card">
+                  <img src="mh.jpg" class="card-img" alt="">
+                  <div class="card-body">
+                      <h2 class="name">Money Hiest</h2>
+                      <h6 class="des">national mint and a touring school group are held hostage by robbers.</h6>
+                      <button class="watchlist-btn">add to watchlist</button>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="Gt.jpg" class="card-img" alt="">
+                  <div class="card-body">
+                      <h2 class="name">Game Of Thrones</h2>
+                      <h6 class="des">Nine noble families wage war against in order to gain control over the land of Westeros. </h6>
+                      <button class="watchlist-btn">add to watchlist</button>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="Break.jpg" class="card-img" alt="">
+                  <div class="card-body">
+                      <h2 class="name">Breaking Bad</h2>
+                      <h6 class="des"> a chemistry teacher, discovers that he has cancer and decides to get into the meth-making business </h6>
+                      <button class="watchlist-btn">add to watchlist</button>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="PC.jpg" class="card-img" alt="">
+                  <div class="card-body">
+                      <h2 class="name">Pirates Of The Cariabiean</h2>
+                      <h6 class="des"> fantasy supernatural swashbuckler film series </h6>
+                      <button class="watchlist-btn">add to watchlist</button>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="images/poster 8.png" class="card-img" alt="">
+                  <div class="card-body">
+                      <h2 class="name">Soul</h2>
+                      <h6 class="des">It follows a pianist.</h6>
+                      <button class="watchlist-btn">add to watchlist</button>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="images/poster 9.png" class="card-img" alt="">
+                  <div class="card-body">
+                      <h2 class="name">Raya The Last Dragon</h2>
+                      <h6 class="des">  a warrior princess who find dragon..</h6>
+                      <button class="watchlist-btn">add to watchlist</button>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="man.jpg" class="card-img" alt="">
+                  <div class="card-body">
+                      <h2 class="name">The Family Man</h2>
+                      <h6 class="des">Srikant Tiwari serves as a world-class spy; tries to balance his responsibilities </h6>
+                      <button class="watchlist-btn">add to watchlist</button>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="dhootha.jpg" class="card-img" alt="">
+                  <div class="card-body">
+                      <h2 class="name">Dhootha</h2>
+                      <h6 class="des"> Sagar's life is turned upside down when newspapers predict  incidents that unfold in his life.</h6>
+                      <button class="watchlist-btn">add to watchlist</button>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="series.jpg" class="card-img" alt="">
+                  <div class="card-body">
+                      <h2 class="name">Un Fortunate Events</h2>
+                      <h6 class="des">tragic tale of three orphans;Violet,Klaus,Sunny</h6>
+                      <button class="watchlist-btn">add to watchlist</button>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="The.jpg" class="card-img" alt="">
+                  <div class="card-body">
+                      <h2 class="name">The Kerala Story</h2>
+                      <h6 class="des">student in Kerala lives happily until her identity dissipate in the abyss of religious terrorism.</h6>
+                      <button class="watchlist-btn">add to watchlist</button>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="save .jpg" class="card-img" alt="">
+                  <div class="card-body">
+                      <h2 class="name">Save the tigers</h2>
+                      <h6 class="des">A chance meeting between three frustrated husbands leads to a rant .</h6>
+                      <button class="watchlist-btn">add to watchlist</button>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="images/poster 1.png" class="card-img" alt="">
+                  <div class="card-body">
+                      <h2 class="name">Loki</h2>
+                      <h6 class="des">The mischievous villain escaping the clutches of The Avengers.</h6>
+                      <button class="watchlist-btn">add to watchlist</button>
+                  </div>
+              </div>
+          </div>
+     </div>
+    <script src="index.js" async></script>
+  </body>
+</html>
+<!--
+  <a href="ap.html" style="margin-right: 85px;" ><button class="sub-btn">Search🔎</button></a>
+        <button id="myspace" class="btn" onmouseover="change1()" onmouseout="change2()">myspace👤</button>
+-->
